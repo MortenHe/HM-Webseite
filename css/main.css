@@ -1,0 +1,36 @@
+#content,
+#content_middle,
+#content_short,
+.text,
+.text_short,
+.down_box,
+table {
+    border-radius: 10px;
+}
+
+.roles {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.roles div {
+    display: inline-block;
+    border: 1px solid white;
+    width: 230px;
+    background-color: #3B6972;
+    border-radius: 10px;
+}
+
+.down_box audio {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.m_b_0 {
+    margin-bottom: 0px;
+}

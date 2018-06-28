@@ -1,0 +1,404 @@
+body {
+    background-image: url("../pics/hp/short_bg.jpg");
+    font-family: Verdana;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.orange_border {
+    border: 2px rgb(241, 181, 0) solid;
+}
+
+#all {
+    margin: 0px auto;
+    width: 760px;
+    text-align: left
+}
+
+/* Der Inhalt */
+
+#content {
+    border: 1px solid #ffffff;
+    background-color: #0b2540;
+    /*dunkel*/
+    padding: 5px;
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+/*3b6972 */
+
+.text {
+    border: 2px solid #ffffff;
+    background-color: #3b6972;
+    /*hell */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.absatz {
+    text-indent: 13px;
+    text-align: justify;
+}
+
+.top10 {
+    margin-top: 10px;
+}
+
+.down {
+    width: 450px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download {
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+form {
+    margin-top: 10px;
+}
+
+table {
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    color: #FFFFFF;
+    width: 450px;
+    margin-bottom: 20px;
+    background-color: #3b6972;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    width: 225px;
+}
+
+th {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+.left {
+    text-align: left;
+}
+
+.Button {
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 170px;
+    border: 1px solid #FFFFFF;
+    font-weight: normal;
+    background-color: #0b2540;
+}
+
+a:link {
+    color: rgb(241, 181, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(241, 181, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.menu:link,
+A.menu:visited {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+a.menu:hover {
+    color: rgb(241, 181, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.menu:active {
+    color: rgb(241, 181, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+p {
+    margin-top: 0px;
+}
+
+/* Die Titelzeile */
+
+#title {
+    padding-top: 15px;
+    height: 24px;
+}
+
+/* Das Men� */
+
+#menu {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: 1px solid #FFFFFF;
+    clear: right;
+    font-size: 14px;
+}
+
+#bild {
+    border: 2px solid #ffffff;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #3b6972;
+}
+
+#line {
+    text-decoration: underline;
+}
+
+.kursiv {
+    font-style: italic;
+}
+
+/*p:first-letter { font-size:150%;}*/
+
+.projekte {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0b2540;
+    /*dunkel */
+    margin-bottom: 0px;
+}
+
+.projekte2 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #084a12;
+}
+
+.galerie {
+    border: 3px solid #ffffff;
+    height: 370px;
+}
+
+.scroll_links {
+    float: left;
+    width: 200px;
+    height: 370px;
+    overflow: auto;
+}
+
+.scroll_pic {
+    border: 2px solid #ffffff;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #3b6972;
+    text-align: center;
+}
+
+.marg_left {
+    margin-left: 205px;
+}
+
+.fragebogen {
+    margin-left: 250px;
+}
+
+.guests {
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+textarea {
+    text-align: left;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left {
+    text-align: left;
+}
+
+.left_dark {
+    text-align: left;
+    background-image: url(pics/bg.jpg);
+}
+
+.black {
+    color: black;
+}
+
+.dark {
+    background-color: #0b2540;
+    /*dunkel*/
+    margin-top: 10px;
+}
+
+.audio {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.dark_back {
+    background-color: #0b2540;
+    /*dunkel*/
+}
+
+.probe_portal {
+    width: 278px;
+    margin-top: 20px;
+}
+
+.white_border {
+    border: 1px rgb(255, 255, 255) solid;
+}
+
+.portal_back {
+    background-color: #0B2540;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 12px;
+    height: 15px;
+    margin-top: 8px;
+    padding: 4px;
+    position: absolute;
+    width: 140px;
+    border: 1px solid #0B2540;
+    text-align: center;
+}
+
+.portal_back:hover {
+    border-color: white;
+}
+
+.down_box {
+    padding-top: 5px;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    color: #FFFFFF;
+    width: 450px;
+    margin-bottom: 20px;
+    background-color: #3B6972;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.down_a {
+    margin: 10px auto;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    background-color: white;
+    width: 245px;
+    height: 30px;
+    color: grey;
+    border: 3px solid grey;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Lobster', serif;
+    font-size: 21px;
+    font-weight: normal;
+    border-radius: 13px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+a.down_a:visited {
+    border: 3px solid grey;
+    color: grey;
+    text-decoration: none;
+}
+
+a.down_a:hover {
+    border: 3px solid #0B2540;
+    color: #0B2540;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.m_b_5 {
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: 'Lobster', serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Trykker', serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.m_b_25 {
+    margin-bottom: 25px;
+}
+
+.m_b_10 {
+    margin-bottom: 10px;
+}

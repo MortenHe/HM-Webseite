@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?hoerspiel-macher.de$
+RewriteRule ^(/)?$ sites [L]
