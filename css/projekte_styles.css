@@ -1,15 +1,15 @@
 body {
-    background-color:#000000;
-    font-family:Verdana;
-    font-size:13px;
-    text-align:center;
+    background-color: #000000;
+    font-family: Verdana;
+    font-size: 13px;
+    text-align: center;
     background-image: none;
     margin: 0;
     padding: 0;
 }
 
 .center {
-    text-align:center;
+    text-align: center;
 }
 
 .orange_border {
@@ -17,36 +17,36 @@ body {
 }
 
 #all {
-    margin: 0px auto; 
-    width: 760px; 
-    text-align: left
+    margin: 0px auto;
+    width: 760px;
+    text-align: left;
 }
 
 /* Der Inhalt */
 #content {
-    border:1px solid #ffffff;
-    background-color:#002255; /*blau*/
-    padding:5px;
-    color:#ffffff;
+    border: 1px solid #ffffff;
+    background-color: #002255; /*blau*/
+    padding: 5px;
+    color: #ffffff;
 }
 
 .text {
-    border:2px solid #ffffff;
-    background-color:#661122; /*rot */
-    margin-right:10px; 
-    margin-left:10px;
-    margin-top:15px;
-    text-align:justify;
+    border: 2px solid #ffffff;
+    background-color: #661122; /*rot */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: justify;
     padding: 10px;
 }
 
 .text_short {
-    border:2px solid #ffffff;
-    background-color:#661122; /*rot */
-    margin-right:10px; 
-    margin-left:10px;
-    margin-top:10px;
-    text-align:justify;
+    border: 2px solid #ffffff;
+    background-color: #661122; /*rot */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: justify;
     padding: 10px;
 }
 
@@ -55,94 +55,148 @@ body {
 }
 
 .top10 {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .down {
-    width:450px; 
-    text-align:justify;
-    margin-left:auto;
-    margin-right:auto;
+    width: 450px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .download {
-    border-color:#f1b500; 
-    border-width:2px; 
-    border-style:solid; 
+    border-color: #f1b500;
+    border-width: 2px;
+    border-style: solid;
 }
 
-form {margin-top:10px; }
+form {
+    margin-top: 10px;
+}
 
 table {
-    border-color:#ffffff; 
-    border-width:2px; 
-    border-style:solid; 
-    text-align:center; 
-    color:#FFFFFF; 
-    width:450px; 
-    margin-bottom:20px; 
-    border-collapse:collapse;  
-    background-color:#1e722c;
-    margin-left:auto;
-    margin-right:auto;
-
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    color: #ffffff;
+    width: 450px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color: #1e722c;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td {
-    margin:0px; 
-    padding: 3px; 
-    text-align:center; 
-    width:225px;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    width: 225px;
 }
 
 th {
-    margin:0px; 
-    padding: 5px; 
-    text-align:center; 
-    width:150px;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
 }
 
 .left {
-    text-align:left;
+    text-align: left;
 }
 
-.Button { font-size: 15px; background-color:#f1b500; color:#000; width:170px; border:1px solid #000; font-weight:normal;}
+.Button {
+    font-size: 15px;
+    background-color: #f1b500;
+    color: #000;
+    width: 170px;
+    border: 1px solid #000;
+    font-weight: normal;
+}
 
-a:link { color:#ffffff; text-decoration:none; font-weight:bold;}
-a:visited { color:#ffffff; text-decoration:none; font-weight:bold;}
-a:hover { color:#ffffff; text-decoration:underline; font-weight:bold; }
-a:active { color:#ffffff; text-decoration:none; font-weight:bold;}
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-a.menu:link, A.menu:visited {color:#FFFFFF; font-weight:bold; text-decoration:underline}
-a.menu:hover {color:#ffffff; text-decoration: none; font-weight:bold;} 
-a.menu:active {color:#ffffff; text-decoration: underline; font-weight:bold;} 
+a.menu:link,
+A.menu:visited {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a.menu:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.menu:active {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
-h1 {font-size:18px;color:#ffffff;margin-top:0px; margin-bottom: 0px; text-align:center;}
-h2 {font-size:14px;color:#ffffff; margin-bottom:10px; margin-top:0px; text-align:center;}
-h3 {font-size:14px;color:#ffffff;}
-p {margin-top:0px;}
+h1 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h2 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+h3 {
+    font-size: 14px;
+    color: #ffffff;
+}
+p {
+    margin-top: 0px;
+}
 
 /* Die Titelzeile */
 #title {
-    padding-top:15px;
-    height:24px;
+    padding-top: 15px;
+    height: 24px;
 }
 
-/* Das Menü */
+/* Das Menï¿½ */
 #menu {
-    color:#ffffff;
-    text-align:center;
-    padding:10px 0px;
-    border-top:1px solid #FFFFFF;
-    clear:right;
-    font-size:14px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: 1px solid #ffffff;
+    clear: right;
+    font-size: 14px;
 }
 
 #bild {
-    border:2px solid #f1b500;
-    margin-right:5px; 
-    margin-top:5px;
-    background-color:#1e722c;
+    border: 2px solid #f1b500;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #1e722c;
 }
 
 #line {
@@ -150,47 +204,49 @@ p {margin-top:0px;}
 }
 
 .kursiv {
-    font-style:italic;
+    font-style: italic;
 }
 
-p:first-letter { font-size:150%;}
+p:first-letter {
+    font-size: 150%;
+}
 
 .projekte {
     width: 100px;
-    margin-left:auto; 
-    margin-right:auto;
-    background-color:#002255;  /*dunkel */
-    margin-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #002255; /*dunkel */
+    margin-bottom: 0px;
 }
 
 .projekte2 {
-    margin-left:auto; 
-    margin-right:auto;
-    background-color:#084a12;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #084a12;
 }
 
 .galerie {
     border: 1px solid #002255;
-    height:380px;
-    background-color:#002255;
-    width:703px;
+    height: 380px;
+    background-color: #002255;
+    width: 703px;
 }
 
 .scroll_links {
-    float:left; 
-    width:200px; 
-    height:380px; 
-    overflow:auto;
+    float: left;
+    width: 200px;
+    height: 380px;
+    overflow: auto;
 }
 
 .scroll_pic {
-    cursor:pointer;
-    border:2px solid #ffffff; 
-    margin-right:5px; 
-    margin-top:5px; 
-    margin-left:5px; 
-    background-color:#661122;
-    text-align:center;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #661122;
+    text-align: center;
 }
 
 .scroll_pic:last-child {
@@ -198,12 +254,12 @@ p:first-letter { font-size:150%;}
 }
 
 .marg_left {
-    margin-left:200px;
-    padding:5px;
+    margin-left: 200px;
+    padding: 5px;
 }
 
 .fragebogen {
-    margin-left:250px;
+    margin-left: 250px;
 }
 
 .guests {
@@ -215,8 +271,8 @@ input {
 }
 
 textarea {
-    text-align:left;
-    color:white;
+    text-align: left;
+    color: white;
 }
 
 .bold {
@@ -229,29 +285,29 @@ textarea {
 
 .left_dark {
     text-align: left;
-    background-image:url(pics/bg.jpg); 
+    background-image: url(pics/bg.jpg);
 }
 
 .black {
-    color:black;
+    color: black;
 }
 
 .dark_back {
-    background-color:#084a12;
+    background-color: #084a12;
 }
 
 .m_b_10 {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 h1 {
-    font-family: 'Lobster', serif;
+    font-family: "Lobster", serif;
     font-size: 24px;
     font-weight: normal;
 }
 
 body {
-    font-family: 'Trykker', serif;
+    font-family: "Trykker", serif;
     font-size: 14px;
     font-weight: normal;
 }

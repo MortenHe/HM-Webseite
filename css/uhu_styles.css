@@ -1,3 +1,23 @@
+/* lobster-regular - latin */
+@font-face {
+    font-family: "Lobster";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("fonts/lobster-v28-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("fonts/lobster-v28-latin-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* trykker-regular - latin */
+@font-face {
+    font-family: "Trykker";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("fonts/trykker-v21-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("fonts/trykker-v21-latin-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 body {
     background-image: url("../pics/hp/uhu_bg.jpg");
     font-family: Verdana;
@@ -18,7 +38,7 @@ body {
 #all {
     margin: 0px auto;
     width: 760px;
-    text-align: left
+    text-align: left;
 }
 
 /* Der Inhalt */
@@ -104,7 +124,7 @@ table {
     border-width: 2px;
     border-style: solid;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 450px;
     margin-bottom: 20px;
     background-color: #1e722c;
@@ -165,7 +185,7 @@ a:active {
 
 a.menu:link,
 A.menu:visited {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -219,7 +239,7 @@ p {
     color: #ffffff;
     text-align: center;
     padding: 10px 0px;
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #ffffff;
     clear: right;
     font-size: 14px;
 }
@@ -331,7 +351,7 @@ textarea {
 }
 
 .portal_back {
-    background-color: #084A12;
+    background-color: #084a12;
     border-radius: 10px 10px 10px 10px;
     font-size: 12px;
     height: 15px;
@@ -339,7 +359,7 @@ textarea {
     padding: 4px;
     position: absolute;
     width: 140px;
-    border: 1px solid #084A12;
+    border: 1px solid #084a12;
     text-align: center;
 }
 
@@ -348,15 +368,15 @@ textarea {
 }
 
 hr {
-    border: 1px solid #F1B500;
+    border: 1px solid #f1b500;
 }
 
 .down_box {
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 2px solid #F1B500;
+    border: 2px solid #f1b500;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 450px;
     margin-bottom: 20px;
     background-color: #1e722c;
@@ -377,7 +397,7 @@ a.down_a {
     display: block;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Lobster', serif;
+    font-family: "Lobster", serif;
     font-size: 21px;
     font-weight: normal;
     border-radius: 13px;
@@ -391,8 +411,8 @@ a.down_a:visited {
 }
 
 a.down_a:hover {
-    border: 3px solid #084A12;
-    color: #084A12;
+    border: 3px solid #084a12;
+    color: #084a12;
     text-decoration: none;
 }
 
@@ -401,13 +421,13 @@ a.down_a:hover {
 }
 
 h1 {
-    font-family: 'Lobster', serif;
+    font-family: "Lobster", serif;
     font-size: 24px;
     font-weight: normal;
 }
 
 body {
-    font-family: 'Trykker', serif;
+    font-family: "Trykker", serif;
     font-size: 14px;
     font-weight: normal;
 }

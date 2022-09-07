@@ -1,3 +1,23 @@
+/* lobster-regular - latin */
+@font-face {
+    font-family: "Lobster";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("fonts/lobster-v28-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("fonts/lobster-v28-latin-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* trykker-regular - latin */
+@font-face {
+    font-family: "Trykker";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("fonts/trykker-v21-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("fonts/trykker-v21-latin-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 body {
     background-image: url("../pics/hp/short_bg.jpg");
     font-family: Verdana;
@@ -18,7 +38,7 @@ body {
 #all {
     margin: 0px auto;
     width: 760px;
-    text-align: left
+    text-align: left;
 }
 
 /* Der Inhalt */
@@ -76,7 +96,7 @@ table {
     border-width: 1px;
     border-style: solid;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 450px;
     margin-bottom: 20px;
     background-color: #3b6972;
@@ -104,9 +124,9 @@ th {
 
 .Button {
     font-size: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 170px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     font-weight: normal;
     background-color: #0b2540;
 }
@@ -137,7 +157,7 @@ a:active {
 
 a.menu:link,
 A.menu:visited {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -191,7 +211,7 @@ p {
     color: #ffffff;
     text-align: center;
     padding: 10px 0px;
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #ffffff;
     clear: right;
     font-size: 14px;
 }
@@ -313,7 +333,7 @@ textarea {
 }
 
 .portal_back {
-    background-color: #0B2540;
+    background-color: #0b2540;
     border-radius: 10px 10px 10px 10px;
     font-size: 12px;
     height: 15px;
@@ -321,7 +341,7 @@ textarea {
     padding: 4px;
     position: absolute;
     width: 140px;
-    border: 1px solid #0B2540;
+    border: 1px solid #0b2540;
     text-align: center;
 }
 
@@ -335,10 +355,10 @@ textarea {
     border-width: 1px;
     border-style: solid;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 450px;
     margin-bottom: 20px;
-    background-color: #3B6972;
+    background-color: #3b6972;
     margin-left: auto;
     margin-right: auto;
 }
@@ -355,7 +375,7 @@ a.down_a {
     display: block;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Lobster', serif;
+    font-family: "Lobster", serif;
     font-size: 21px;
     font-weight: normal;
     border-radius: 13px;
@@ -370,8 +390,8 @@ a.down_a:visited {
 }
 
 a.down_a:hover {
-    border: 3px solid #0B2540;
-    color: #0B2540;
+    border: 3px solid #0b2540;
+    color: #0b2540;
     text-decoration: none;
 }
 
@@ -384,13 +404,13 @@ hr {
 }
 
 h1 {
-    font-family: 'Lobster', serif;
+    font-family: "Lobster", serif;
     font-size: 24px;
     font-weight: normal;
 }
 
 body {
-    font-family: 'Trykker', serif;
+    font-family: "Trykker", serif;
     font-size: 14px;
     font-weight: normal;
 }

@@ -1,3 +1,23 @@
+/* lobster-regular - latin */
+@font-face {
+    font-family: "Lobster";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("fonts/lobster-v28-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("fonts/lobster-v28-latin-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* trykker-regular - latin */
+@font-face {
+    font-family: "Trykker";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("fonts/trykker-v21-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("fonts/trykker-v21-latin-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -98,7 +118,7 @@ table {
     border-width: 2px;
     border-style: solid;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 450px;
     margin-bottom: 10px;
     border-collapse: collapse;
@@ -129,7 +149,7 @@ th {
     margin-right: 2px;
     cursor: pointer;
     font-size: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 100px;
     font-weight: normal;
     background-color: #3b6972;
@@ -170,7 +190,7 @@ a:active {
 
 a.menu:link,
 A.menu:visited {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -224,7 +244,7 @@ p {
     color: #ffffff;
     text-align: center;
     padding: 10px 0px;
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #ffffff;
     clear: right;
     font-size: 14px;
     position: relative;
@@ -265,9 +285,9 @@ p:first-letter {
 }
 
 .galerie {
-    border: 1px solid #0B2540;
+    border: 1px solid #0b2540;
     height: 380px;
-    background-color: #0B2540;
+    background-color: #0b2540;
     width: 703px;
 }
 
@@ -540,7 +560,7 @@ label {
 }
 
 .pages_footer a:hover {
-    color: #F1B500;
+    color: #f1b500;
 }
 
 .m_b_10 {
@@ -624,8 +644,8 @@ a.down_a:visited {
 }
 
 a.down_a:hover {
-    border: 3px solid #0B2540;
-    color: #0B2540;
+    border: 3px solid #0b2540;
+    color: #0b2540;
     text-decoration: none;
 }
 
@@ -652,7 +672,7 @@ hr {
 }
 
 .right_block:hover {
-    background-color: #67848B;
+    background-color: #67848b;
     -webkit-transition: all 200ms linear;
     -moz-transition: all 2000ms linear;
     -o-transition: all 200ms linear;
@@ -665,12 +685,12 @@ hr {
 }
 
 .d_ib {
-    display: inline-block
+    display: inline-block;
 }
 
 a.portal_button,
 div.portal_button {
-    background-color: #0B2540;
+    background-color: #0b2540;
     background-position: 10px 50%;
     border: 1px solid white;
     border-radius: 0 15px 0 0;
@@ -692,17 +712,17 @@ div.portal_button {
 }
 
 .portal_button:hover {
-    background-color: #2A4058;
+    background-color: #2a4058;
 }
 
 a.link {
     background-image: url(../pics/portal/link.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 div.speaker {
     background-image: url(../pics/portal/speaker.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .listen {
@@ -723,13 +743,14 @@ div.speaker {
 }
 
 h1 {
-    font-family: 'Lobster', serif;
+    font-family: "Lobster", serif;
+
     font-size: 24px;
     font-weight: normal;
 }
 
 body {
-    font-family: 'Trykker', serif;
+    font-family: "Trykker", serif;
     font-size: 14px;
     font-weight: normal;
 }
@@ -829,7 +850,7 @@ p.m_b_0 {
 }
 
 .in_pic {
-    background-color: #0B2540;
+    background-color: #0b2540;
     border-radius: 10px 10px 10px 10px;
     left: 20px;
     margin: 0 auto;
@@ -848,7 +869,7 @@ p.m_b_0 {
     top: 60px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: #0B2540;
+    background-color: #0b2540;
 }
 
 .blog_header {
@@ -909,7 +930,7 @@ audio {
     margin-top: 15px;
 }
 
-.blog p+p {
+.blog p + p {
     margin-top: 10px;
 }
 
